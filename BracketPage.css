@@ -1,0 +1,821 @@
+body{
+    background-color: rgb(154, 154, 233);
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 14px;
+    background-color: rgba(69, 69, 241, 0.784);
+    border-radius: 5px;
+}
+
+li {
+    display: inline;
+    font-size: 24px;
+    padding: 15px 16px;
+}
+
+li:active {
+    background-color: hsl(331, 90%, 80%);
+}
+
+li#bracket {
+    background-color: rgb(154, 154, 233);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+img#logo{
+    position: absolute;
+    top: 11px;
+    left: 11px;
+}
+
+div#bracketBox{
+    overflow: scroll;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -47.5%);
+    width: 92.5%;
+    height: 85%;
+}
+
+embed#bracketPic{
+    position: absolute;
+    width: 32in;
+    height: 25in;
+    object-fit: contain;
+    z-index: -1;
+}
+
+div[id^="grid"]{
+    position: absolute;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 270px 20px;
+    grid-template-rows: 30px 30px;
+    grid-row-gap: 17px;
+}
+
+div[id^="grid1"]{
+    position: absolute;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 250px 20px 20px;
+    grid-template-rows: 30px 30px;
+    grid-row-gap: 17px;
+}
+
+div#grid1-1{
+    top: 48px;
+    left: 69px;
+}
+
+div#grid1-2{
+    top: 195px;
+    left: 69px;
+}
+
+div#grid1-3{
+    top: 341px;
+    left: 69px;
+}
+
+div#grid1-4{
+    top: 487px;
+    left: 69px;
+}
+
+div#grid1-5{
+    top: 632px;
+    left: 69px;
+}
+
+div#grid1-6{
+    top: 778px;
+    left: 69px;
+}
+
+div#grid1-7{
+    top: 924px;
+    left: 69px;
+}
+
+div#grid1-8{
+    top: 1071px;
+    left: 69px;
+}
+
+div#grid1-9{
+    top: 1218px;
+    left: 69px;
+}
+
+div#grid1-10{
+    top: 1364px;
+    left: 69px;
+}
+
+div#grid1-11{
+    top: 1509px;
+    left: 69px;
+}
+
+div#grid1-12{
+    top: 1655px;
+    left: 69px;
+}
+
+div#grid1-13{
+    top: 1801px;
+    left: 69px;
+}
+
+div#grid1-14{
+    top: 1947px;
+    left: 69px;
+}
+
+div#grid1-15{
+    top: 2094px;
+    left: 69px;
+}
+
+div#grid1-16{
+    top: 2240px;
+    left: 69px;
+}
+
+div#grid1-17{
+    top: 48px;
+    left: 2716px;
+}
+
+div#grid1-18{
+    top: 195px;
+    left: 2716px;
+}
+
+div#grid1-19{
+    top: 341px;
+    left: 2716px;
+}
+
+div#grid1-20{
+    top: 487px;
+    left: 2716px;
+}
+
+div#grid1-21{
+    top: 632px;
+    left: 2716px;
+}
+
+div#grid1-22{
+    top: 778px;
+    left: 2716px;
+}
+
+div#grid1-23{
+    top: 924px;
+    left: 2716px;
+}
+
+div#grid1-24{
+    top: 1071px;
+    left: 2716px;
+}
+
+div#grid1-25{
+    top: 1218px;
+    left: 2716px;
+}
+
+div#grid1-26{
+    top: 1364px;
+    left: 2716px;
+}
+
+div#grid1-27{
+    top: 1509px;
+    left: 2716px;
+}
+
+div#grid1-28{
+    top: 1655px;
+    left: 2716px;
+}
+
+div#grid1-29{
+    top: 1801px;
+    left: 2716px;
+}
+
+div#grid1-30{
+    top: 1947px;
+    left: 2716px;
+}
+
+div#grid1-31{
+    top: 2094px;
+    left: 2716px;
+}
+
+div#grid1-32{
+    top: 2240px;
+    left: 2716px;
+}
+
+span[id^="hover"]{
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 7px;
+    font-size: 10pt;
+    z-index: 1;
+}
+
+span#hover1-1, span#hover1-8, span#hover1-5, span#hover1-4, span#hover1-6, span#hover1-3, span#hover1-7, span#hover1-2{
+    top: 36px;
+    left: 0px;
+}
+
+span#hover1-16, span#hover1-9, span#hover1-12, span#hover1-13, span#hover1-11, span#hover1-14, span#hover1-10, span#hover1-15{
+    top: 82px;
+    left: 0px;
+}
+
+span#hover2-1, span#hover2-8, span#hover2-5, span#hover2-4, span#hover2-6, span#hover2-3, span#hover2-7, span#hover2-2{
+    top: 36px;
+    left: 0px;
+}
+
+span#hover2-16, span#hover2-9, span#hover2-12, span#hover2-13, span#hover2-11, span#hover2-14, span#hover2-10, span#hover2-15{
+    top: 82px;
+    left: 0px;
+}
+
+span#hover3-1, span#hover3-8, span#hover3-5, span#hover3-4, span#hover3-6, span#hover3-3, span#hover3-7, span#hover3-2{
+    top: 36px;
+    left: 0px;
+}
+
+span#hover3-16, span#hover3-9, span#hover3-12, span#hover3-13, span#hover3-11, span#hover3-14, span#hover3-10, span#hover3-15{
+    top: 82px;
+    left: 0px;
+}
+
+span#hover4-1, span#hover4-8, span#hover4-5, span#hover4-4, span#hover4-6, span#hover4-3, span#hover4-7, span#hover4-2{
+    top: 36px;
+    left: 0px;
+}
+
+span#hover4-16, span#hover4-9, span#hover4-12, span#hover4-13, span#hover4-11, span#hover4-14, span#hover4-10, span#hover4-15{
+    top: 82px;
+    left: 0px;
+}
+
+p#hover1-1:hover span#hover1-1{
+    visibility: visible;
+}
+
+p#hover1-16:hover span#hover1-16{
+    visibility: visible;
+}
+
+p#hover1-8:hover span#hover1-8{
+    visibility: visible;
+}
+
+p#hover1-9:hover span#hover1-9{
+    visibility: visible;
+}
+
+p#hover1-5:hover span#hover1-5{
+    visibility: visible;
+}
+
+p#hover1-12:hover span#hover1-12{
+    visibility: visible;
+}
+
+p#hover1-4:hover span#hover1-4{
+    visibility: visible;
+}
+
+p#hover1-13:hover span#hover1-13{
+    visibility: visible;
+}
+
+p#hover1-6:hover span#hover1-6{
+    visibility: visible;
+}
+
+p#hover1-11:hover span#hover1-11{
+    visibility: visible;
+}
+
+p#hover1-3:hover span#hover1-3{
+    visibility: visible;
+}
+
+p#hover1-14:hover span#hover1-14{
+    visibility: visible;
+}
+
+p#hover1-7:hover span#hover1-7{
+    visibility: visible;
+}
+
+p#hover1-10:hover span#hover1-10{
+    visibility: visible;
+}
+
+p#hover1-2:hover span#hover1-2{
+    visibility: visible;
+}
+
+p#hover1-15:hover span#hover1-15{
+    visibility: visible;
+}
+
+p#hover2-1:hover span#hover2-1{
+    visibility: visible;
+}
+
+p#hover2-16:hover span#hover2-16{
+    visibility: visible;
+}
+
+p#hover2-8:hover span#hover2-8{
+    visibility: visible;
+}
+
+p#hover2-9:hover span#hover2-9{
+    visibility: visible;
+}
+
+p#hover2-5:hover span#hover2-5{
+    visibility: visible;
+}
+
+p#hover2-12:hover span#hover2-12{
+    visibility: visible;
+}
+
+p#hover2-4:hover span#hover2-4{
+    visibility: visible;
+}
+
+p#hover2-13:hover span#hover2-13{
+    visibility: visible;
+}
+
+p#hover2-6:hover span#hover2-6{
+    visibility: visible;
+}
+
+p#hover2-11:hover span#hover2-11{
+    visibility: visible;
+}
+
+p#hover2-3:hover span#hover2-3{
+    visibility: visible;
+}
+
+p#hover2-14:hover span#hover2-14{
+    visibility: visible;
+}
+
+p#hover2-7:hover span#hover2-7{
+    visibility: visible;
+}
+
+p#hover2-10:hover span#hover2-10{
+    visibility: visible;
+}
+
+p#hover2-2:hover span#hover2-2{
+    visibility: visible;
+}
+
+p#hover2-15:hover span#hover2-15{
+    visibility: visible;
+}
+
+p#hover3-1:hover span#hover3-1{
+    visibility: visible;
+}
+
+p#hover3-16:hover span#hover3-16{
+    visibility: visible;
+}
+
+p#hover3-8:hover span#hover3-8{
+    visibility: visible;
+}
+
+p#hover3-9:hover span#hover3-9{
+    visibility: visible;
+}
+
+p#hover3-5:hover span#hover3-5{
+    visibility: visible;
+}
+
+p#hover3-12:hover span#hover3-12{
+    visibility: visible;
+}
+
+p#hover3-4:hover span#hover3-4{
+    visibility: visible;
+}
+
+p#hover3-13:hover span#hover3-13{
+    visibility: visible;
+}
+
+p#hover3-6:hover span#hover3-6{
+    visibility: visible;
+}
+
+p#hover3-11:hover span#hover3-11{
+    visibility: visible;
+}
+
+p#hover3-3:hover span#hover3-3{
+    visibility: visible;
+}
+
+p#hover3-14:hover span#hover3-14{
+    visibility: visible;
+}
+
+p#hover3-7:hover span#hover3-7{
+    visibility: visible;
+}
+
+p#hover3-10:hover span#hover3-10{
+    visibility: visible;
+}
+
+p#hover3-2:hover span#hover3-2{
+    visibility: visible;
+}
+
+p#hover3-15:hover span#hover3-15{
+    visibility: visible;
+}
+
+p#hover4-1:hover span#hover4-1{
+    visibility: visible;
+}
+
+p#hover4-16:hover span#hover4-16{
+    visibility: visible;
+}
+
+p#hover4-8:hover span#hover4-8{
+    visibility: visible;
+}
+
+p#hover4-9:hover span#hover4-9{
+    visibility: visible;
+}
+
+p#hover4-5:hover span#hover4-5{
+    visibility: visible;
+}
+
+p#hover4-12:hover span#hover4-12{
+    visibility: visible;
+}
+
+p#hover4-4:hover span#hover4-4{
+    visibility: visible;
+}
+
+p#hover4-13:hover span#hover4-13{
+    visibility: visible;
+}
+
+p#hover4-6:hover span#hover4-6{
+    visibility: visible;
+}
+
+p#hover4-11:hover span#hover4-11{
+    visibility: visible;
+}
+
+p#hover4-3:hover span#hover4-3{
+    visibility: visible;
+}
+
+p#hover4-14:hover span#hover4-14{
+    visibility: visible;
+}
+
+p#hover4-7:hover span#hover4-7{
+    visibility: visible;
+}
+
+p#hover4-10:hover span#hover4-10{
+    visibility: visible;
+}
+
+p#hover4-2:hover span#hover4-2{
+    visibility: visible;
+}
+
+p#hover4-15:hover span#hover4-15{
+    visibility: visible;
+}
+
+div#grid2-1{
+    top: 123px;
+    left: 398px;
+}
+
+div#grid2-2{
+    top: 415px;
+    left: 398px;
+}
+
+div#grid2-3{
+    top: 707px;
+    left: 398px;
+}
+
+div#grid2-4{
+    top: 1000px;
+    left: 398px;
+}
+
+div#grid2-5{
+    top: 1292px;
+    left: 398px;
+}
+
+div#grid2-6{
+    top: 1584px;
+    left: 398px;
+}
+
+div#grid2-7{
+    top: 1876px;
+    left: 398px;
+}
+
+div#grid2-8{
+    top: 2168px;
+    left: 398px;
+}
+
+div#grid2-9{
+    top: 123px;
+    left: 2386px;
+}
+
+div#grid2-10{
+    top: 415px;
+    left: 2386px;
+}
+
+div#grid2-11{
+    top: 707px;
+    left: 2386px;
+}
+
+div#grid2-12{
+    top: 1000px;
+    left: 2386px;
+}
+
+div#grid2-13{
+    top: 1292px;
+    left: 2386px;
+}
+
+div#grid2-14{
+    top: 1584px;
+    left: 2386px;
+}
+
+div#grid2-15{
+    top: 1876px;
+    left: 2386px;
+}
+
+div#grid2-16{
+    top: 2168px;
+    left: 2386px;
+}
+
+div#grid3-1{
+    top: 265px;
+    left: 554px;
+}
+
+div#grid3-2{
+    top: 849px;
+    left: 554px;
+}
+
+div#grid3-3{
+    top: 1434px;
+    left: 554px;
+}
+
+div#grid3-4{
+    top: 2019px;
+    left: 554px;
+}
+
+div#grid3-5{
+    top: 265px;
+    left: 2233px;
+}
+
+div#grid3-6{
+    top: 849px;
+    left: 2233px;
+}
+
+div#grid3-7{
+    top: 1434px;
+    left: 2233px;
+}
+
+div#grid3-8{
+    top: 2019px;
+    left: 2233px;
+}
+
+div#grid4-1{
+    top: 557px;
+    left: 785px;
+}
+
+div#grid4-2{
+    top: 1726px;
+    left: 785px;
+}
+
+div#grid4-3{
+    top: 557px;
+    left: 2001px;
+}
+
+div#grid4-4{
+    top: 1726px;
+    left: 2001px;
+}
+
+div#grid5-1{
+    top: 1141px;
+    left: 990px;
+}
+
+div#grid5-2{
+    top: 1141px;
+    left: 1796px;
+}
+
+div#grid6-1{
+    top: 1142px;
+    left: 1395px;
+}
+
+div#grid7-1{
+    position: absolute;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: 292px;
+    grid-template-rows: 30px;
+    top: 1287px;
+    left: 1394px;
+}
+
+button#startButton{
+    position: absolute;
+    left: 50%;
+    top: 97.5%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 37.5px;
+    background-color: rgba(69, 69, 241, 0.603);
+    font-size: 20pt;
+    font-family: serif;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button#nextRoundButton{
+    position: absolute;
+    left: 50%;
+    top: 97.5%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 37.5px;
+    background-color: rgba(69, 69, 241, 0.603);
+    font-size: 20pt;
+    font-family: serif;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button#backButton{
+    position: absolute;
+    left: 5%;
+    top: 97.5%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(69, 69, 241, 0.603);
+    font-size: 20pt;
+    font-family: serif;
+    align-content: center;
+    margin-top: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+button .circle {
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation: scale 0.5s ease-out;
+}
+
+@keyframes scale {
+    to {
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0;
+    }
+}
+
+p#tracker{
+    position: absolute;
+    left: 50%;
+    top: 96.75%;
+    transform: translate(-50%, -50%);
+    font-size: 20pt;
+    font-family: serif;
+    align-content: center;
+    margin-top: 3px;
+}
+
+span[id^="number"]{
+    visibility: visible;
+}
+
+p#groupA{
+    position: absolute;
+    font-size: 20pt;
+    top: -15px;
+    left: 69px;
+}
+
+p#groupB{
+    position: absolute;
+    font-size: 20pt;
+    top: 1152px;
+    left: 69px;
+}
+
+p#groupC{
+    position: absolute;
+    font-size: 20pt;
+    top: -15px;
+    left: 2716px;
+    width: 200px;
+}
+
+p#groupD{
+    position: absolute;
+    font-size: 20pt;
+    top: 1152px;
+    left: 2716px;
+    width: 200px;
+}

@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(154, 154, 233);
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 14px;
+    background-color: rgba(69, 69, 241, 0.784);
+    border-radius: 5px;
+}
+
+li {
+    display: inline;
+    font-size: 24px;
+    padding: 15px 16px;
+}
+
+li:active {
+    background-color: hsl(331, 90%, 80%);
+}
+
+li#bracket {
+    background-color: rgb(154, 154, 233);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+img#logo{
+    position: absolute;
+    top: 11px;
+    left: 11px;
+}
+
+.panel-container{
+    box-sizing: border-box;
+    font-family: serif;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 9%;
+    left: 50%;
+    top: 50%;
+
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.panel-container strong{
+    line-height: 20px;
+}
+
+.ratings-container{
+    display: flex;
+    margin: 20px 0;
+}
+
+.rating{
+    flex: 1;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px 5px;
+    height: 150px;
+    width: 90px;
+}
+
+.rating:hover, .rating.active{
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.rating p{
+    width: 40px;
+    font-size: 72px;
+    margin-top: 0;
+    margin-left: -5px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.rating small{
+    color: #555;
+    display: inline-block;
+    margin: 10px 0 0;
+}
+
+.rating:hover small, .rating.active small{
+    color: #111;
+}
+
+.btn{
+    background-color: #302d2b;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.fa-heart{
+    color: red;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#complaints{
+    font-family: serif;
+    letter-spacing: 1px;
+    margin: 10px;
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 100px;
+    min-height: 80px;
+}

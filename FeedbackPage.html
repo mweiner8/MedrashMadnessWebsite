@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Midrash Madness</title>
+        <link rel="icon" href="MMLogoNoBackground.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="FeedbackPage.css" rel="stylesheet">
+        <script src="FeedbackPage.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <img id="logo" src="MMLogoNoBackground.png" alt="logo" width="65px" height="50px">
+            <ul>
+                <li id="home"><a href="HomePage.html">Home</a></li>
+                <li id="bracket">Bracket</li>
+                <li id="list"><a href="ListPage.html">Medrash List</a></li>
+            </ul>
+        </nav>
+        <div id="panel" class="panel-container">
+            <strong>How satisfied are you with<br/>
+                the Medrash Madness experience?</strong>
+            <div class="ratings-container">
+                <div class="rating">
+                    <p>&#128542;</p>
+                    <small>Unhappy</small>
+                </div>
+                <div class="rating">
+                    <p>&#128528;</p>
+                    <small>Neutral</small>
+                </div>
+                <div class="rating active">
+                    <p>&#128522;</p>
+                    <small>Happy</small>
+                </div>
+            </div>
+            <textarea id="complaints" rows="4" cols="50" name="comments" placeholder="This space is designated for all of your complaints..."></textarea>
+            <button class="btn" id="send">Send Feedback</button>
+        </div>
+    </body>
+</html>
