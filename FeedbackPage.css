@@ -43,12 +43,10 @@ img#logo{
 .panel-container{
     box-sizing: border-box;
     font-family: serif;
-    height: 500px;
+    height: 550px;
     overflow: hidden;
     margin: auto;
-    margin-top: 9%;
-    left: 50%;
-    top: 50%;
+    margin-top: 5%;
 
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -138,4 +136,13 @@ img#logo{
     min-width: 300px;
     max-height: 100px;
     min-height: 80px;
+}
+
+#nameBox{
+    max-width: 300px;
+    min-width: 300px;
+}
+
+label{
+    font-size: 18px;
 }
