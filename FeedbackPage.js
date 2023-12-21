@@ -13,9 +13,11 @@ ratingsContainer.addEventListener('click', (e) => {
 })
 
 sendBtn.addEventListener('click', () => {
+    var nameBox = document.getElementById("nameBox");
+    var name = nameBox.value;
     panel.innerHTML = `
         <i class="fa fa-heart"></i>
-        <strong>Thank You!</strong>
+        <strong>Thank You ${name}!</strong>
         <br>
         <strong>Feedback: ${selectedRating}</strong>
         <p>Your response has been recorded</p>
